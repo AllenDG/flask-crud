@@ -1,0 +1,43 @@
+/* styles.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ccc;
+  width: 200px;
+  padding: 8px;
+  text-align: left;
+}
+
+.update-button, .delete-button, .create-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.update-button, .delete-button{
+  width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
